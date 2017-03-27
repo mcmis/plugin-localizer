@@ -14,7 +14,7 @@
  */
 
 Route::group([
-    'namespace' => 'MCMIS\Support\Plugins\Localizer\Http', 'middleware' => 'web',
+    'namespace' => 'MCMIS\Plugin\Localizer\Http', 'middleware' => 'web',
 ], function ($router) {
     $router->get('/lang/{lang}', 'Controller@change');
 });
