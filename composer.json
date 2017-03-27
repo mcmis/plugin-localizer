@@ -1,0 +1,26 @@
+{
+    "name": "mcmis/plugin-localizer",
+    "description": "The plugin localizer package for multi-language support of MCMIS",
+    "type": "mcmis-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farhan Wazir",
+            "email": "farhan.wazir@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "mcmis/base" : "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MCMIS\\Plugin\\Localizer\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
